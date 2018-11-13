@@ -1,0 +1,275 @@
+body,td,th {
+	font-family: Arial;
+	font-size: 100%;
+	color: #0e1d1f;
+	}
+	body {
+	font-family: Palatino Linotype;
+	background-color: #0c0c0c;
+    }	
+	a:visited {
+        text-decoration: none;
+        color: #6A0F1B;
+        }
+        a:hover {
+        text-decoration: underline;
+        color: #2323D9;
+        }
+        a:active {
+        text-decoration: none;
+        color: #2323D9;
+        }
+        a[class="link"] {
+        text-align: left;
+        color: yellow;
+        }
+        p{
+            text-align: center;
+            color: #a18117;    
+        }
+       #p1{
+            text-align: center;
+            color: #05040c;    
+        }
+    #encabezado {
+        background-color: rgb(39, 18, 4);
+        font-size: 125%;
+        background-color: #05040c;
+        text-align: center;
+        //border: 1px solid red;
+        width: 100%;
+        height: 25%;
+        }
+    #cuerpo {
+            float: center;
+            font-size: 120%;
+            color: black;
+            text-align: left;
+            width: 100%;
+            height: auto;
+            }
+     #nombre{
+       
+                float: left;
+                background-color: #05040c;
+                font-size: 100%;
+                color: white;
+                text-align: left;
+                width: 100%;
+                height: auto;
+                
+            }
+            #imagen, #video, #soy{
+                width: 33%;
+                height: 10px;
+                display: inline-block;
+            }
+                
+    #imagen{
+       
+        float: left;
+        background-color: #05040c;
+        font-size: 100%;
+        color: white;
+        text-align: center;
+        width: 22%;
+        height: 300px;
+        
+    }
+    #soy{
+        float: center;
+        background-color: #05040c;
+        font-size: 100%;
+        color: white;
+        text-align: center;
+        width: 55%;
+        height: 300px;
+
+    }
+    #video{
+        float: right;
+       
+        bottom: 20px;
+        float: right;
+        background-color: #05040c;
+        font-size: 100%;
+        color: white;
+        text-align: center;
+        width: 23%;
+        height: 300px;
+    }
+    #pie{
+        font-size: 150%;
+        background-color: #05040c;
+        text-align: left;
+        //border: 1px solid red;
+        margin-top: 10%;
+        width: 100%;
+        height: 40%;
+    }
+   #table1 {   
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 100%;  
+        margin-left:auto;
+        margin-right:auto;    
+        width: 100%; 
+        text-align: center;   
+        border-collapse: collapse; 
+        }
+        #table2 {   
+            font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+            font-size: 100%;  
+            margin-left:auto;
+            margin-right:auto;    
+            width: 80%; 
+            text-align: center;   
+            border-collapse: collapse; 
+            }
+    table {   
+        font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+        font-size: 100%;  
+        margin-left:50%;
+        margin-right:auto;    
+        width: 50%; 
+        text-align: center;   
+        border-collapse: collapse; 
+        }
+      
+    th {    
+        font-size: 150%;     
+        font-weight: normal;     
+        padding: 3%;     
+        background: #f9ff46;
+        border-top: 4px solid #aabcfe;    
+        border-bottom: 1px solid #fff; 
+        color:  #93948d; 
+        }
+        td { 
+        padding: 10px;     
+        background-color: #05040c;
+        border-bottom: 1px solid #fff;
+        color: #a18117;    
+        border-top: 5px solid transparent;
+        }
+        h1{
+            text-align: center;
+            color:red;
+        }
+        h2{
+            text-align: center;
+            color:red; 
+        }
+        h3{
+            text-align: center;
+            color:red;
+        }
+        .foto1 { 
+            padding: 2%; 
+            margin: 20%; 
+            border: 3px solid black; 
+            float: center; 
+            width: 50%;
+            }
+        .foto2 { 
+                padding: 2%; 
+                margin: 5%; 
+                border: 3px solid black; 
+                float: center; 
+                width: 15%;
+                }
+         #video1 {
+             margin-top: 0px;
+             float:center;
+            width: 320px;
+            height: 200px;
+            text-align: center;
+                 }
+                 #audio1{
+                    margin-top: 150px;
+                   margin-left: 55px;
+                   width: 75%;
+                   height: auto;
+                   text-align: center;
+                   }
+        
+                 div + div {
+                    margin-top: 1em;
+                  }
+                  
+                  label {
+                    display: inline-block;
+                    width: 90%;
+                    text-align: right;
+                  }
+                  
+                  input, textarea {
+                    font: 1em sans-serif;
+                    width: 75%;
+                  
+                    -moz-box-sizing: border-box;
+                         box-sizing: border-box;
+                  
+                    border: 1px solid red;
+                  }
+                  
+                  input:focus, textarea:focus {
+                    border-color: red;
+                  }
+                  
+                  textarea {
+                    vertical-align: top;
+                  
+                    height: 5em;
+                  
+                    resize: vertical;
+                  }
+                 #boton {
+                    background-color:red;
+                    border-radius: 10%;
+                    box-shadow: none;
+                    border: 0;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 100%;
+                    font-weight: 600;
+                    line-height: 1.612;
+                    display: inline-block;
+                    outline: 0;
+                    text-align: center;
+                    text-decoration: none;
+                    width: auto;
+                    white-space: nowrap;
+                }
+                #boton1 {
+                    background-color: red;
+                    border-radius: 10%;
+                    box-shadow: none;
+                    border: 0;
+                    color: #fff;
+                    cursor: pointer;
+                    font-size: 100%;
+                    font-weight: 600;
+                    line-height: 1.612;
+                    display: inline-block;
+                    outline: 0;
+                    padding:0 7 0 7;
+                    text-align: center;
+                    text-decoration: none;
+                    width: auto;
+                    white-space: nowrap;
+                }
+                #pdf{
+                    margin-left: 280px;
+                text-align: center;
+                float: center; 
+                width: 700px;
+                height: 400px;
+                }
+                #maps{
+                    margin-left: 280px;
+                text-align: center;
+                float: center; 
+                width: 700px;
+                height: 400px;
+                }
+                }                 
